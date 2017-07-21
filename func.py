@@ -1,3 +1,5 @@
+from math import sqrt
+
 hello_string = "Hello and welcome to ICM summer of code"
 
 for i in range(len(hello_string[0:15])):
@@ -11,3 +13,7 @@ def funkcija(a=0, b=0):
 
 	return a * b
 
+def root(a=0):
+	print("pozvana je funkcija za korjenovanje: sqrt({})".format(a))
+
+	return sqrt(a)
