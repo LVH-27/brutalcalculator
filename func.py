@@ -11,3 +11,6 @@ def funkcija(a=0, b=0):
 
 	return a * b
 
+def eksp(eksponent):
+	print("pozvana je funkcija za eksponencijranje")
+	return math.exp(eksponent)
