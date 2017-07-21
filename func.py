@@ -9,9 +9,13 @@ print()
 
 
 def funkcija(a=0, b=0):
-	print("pozvana je funkcija za zbrajanje: {}*{}".format(a, b))
+    print("pozvana je funkcija za zbrajanje: {}+{}".format(a, b))
 
-	return a * b
+    return a + b
+
+def oduzmi(a=0,b=0):
+	print("pozvana je funkcija za oduzimanje: {}-{}".format(a, b))
+	return a-b 
 
 def root(a=0):
 	print("pozvana je funkcija za korjenovanje: sqrt({})".format(a))
