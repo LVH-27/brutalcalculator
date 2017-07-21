@@ -1,9 +1,9 @@
-hello_string = "Hello and welcome to ICM summer of code"
+#hello_string = "Hello and welcome to ICM summer of code"
 
-for i in range(len(hello_string[0:15])):
-	print(hello_string[i::] + hello_string[0:i])
+#for i in range(len(hello_string[0:15])):
+#	print(hello_string[i::] + hello_string[0:i])
 
-print()
+#print()
 
 
 def funkcija(a=0, b=0):
