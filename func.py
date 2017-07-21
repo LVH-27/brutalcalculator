@@ -1,3 +1,4 @@
+import math
 hello_string = "Hello and welcome to ICM summer of code"
 
 for i in range(len(hello_string[0:15])):
