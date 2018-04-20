@@ -2,7 +2,7 @@ import func
 
 # Ovo je jednostavan program za zbrajanje i oduzimanje dva broja
 
-A = 8
+A = 98
 B = 27
 
 print(func.zbroji(A, B))
