@@ -2,8 +2,8 @@ import func
 
 # Ovo je jednostavan program za zbrajanje i oduzimanje dva broja
 
-A = 7
-B = 6
+A = 8
+B = 27
 
-print(func.funkcija(A, B))
+print(func.zbroji(A, B))
 print(func.oduzmi(A, B))
